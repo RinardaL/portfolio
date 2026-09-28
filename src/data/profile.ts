@@ -76,7 +76,6 @@ export const projects: Project[] = [
     tech: ["HTML", "CSS", "Responsive design", "Vercel"],
     github: "https://github.com/RinardaL/glow-by-sv-website",
     demo: "https://glow-by-sv-website.vercel.app",
-    image: "/earrings/collection.webp",
     icon: "💍",
     gradient: "from-rose-100 via-amber-50 to-pink-200 dark:from-rose-400/30 dark:via-amber-300/20 dark:to-pink-400/30",
     url: "glow-by-sv-website.vercel.app",
