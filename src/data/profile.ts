@@ -153,6 +153,7 @@ export const timeline: TimelineItem[] = [
     org: "AlpineTech · ISO 9001:2015 certified training",
     period: "2024 · Certificate",
     detail: "3-month training: Java beginner and advanced, Spring Boot, REST API, GitLab, PostgreSQL, team projects",
+    link: "/certificates/alpinetech-java-spring-boot.pdf",
   },
   {
     title: "Claude 101",
