@@ -1,0 +1,104 @@
+@import "tailwindcss";
+
+/* Soft blush / lavender / peach palette */
+:root {
+  --background: #fff7f9;
+  --surface: #ffffff;
+  --foreground: #3d2b3d;
+  --muted: #8c7589;
+  --border: #f4dde7;
+  --accent: #d9608f;
+  --accent-2: #a98bea;
+  --accent-3: #f6b49a;
+  --accent-soft: #fdecf2;
+  --lavender-soft: #f1ebff;
+  --glow: rgba(232, 134, 176, 0.22);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #1c1420;
+    --surface: #251b2b;
+    --foreground: #f8ecf2;
+    --muted: #c0a9bb;
+    --border: #3a2c42;
+    --accent: #f4a3c6;
+    --accent-2: #c8b2ff;
+    --accent-3: #ffc6ae;
+    --accent-soft: #35233c;
+    --lavender-soft: #2d2440;
+    --glow: rgba(244, 163, 198, 0.18);
+  }
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-surface: var(--surface);
+  --color-foreground: var(--foreground);
+  --color-muted: var(--muted);
+  --color-border: var(--border);
+  --color-accent: var(--accent);
+  --color-accent-2: var(--accent-2);
+  --color-accent-3: var(--accent-3);
+  --color-accent-soft: var(--accent-soft);
+  --color-lavender-soft: var(--lavender-soft);
+  --font-sans: var(--font-dm-sans);
+  --font-serif: var(--font-fraunces);
+  --font-mono: var(--font-geist-mono);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+}
+
+/* dreamy blurred blobs behind the hero */
+.blob {
+  position: absolute;
+  border-radius: 9999px;
+  filter: blur(70px);
+  opacity: 0.55;
+}
+
+.bg-dots {
+  background-image: radial-gradient(var(--border) 1.2px, transparent 1.2px);
+  background-size: 24px 24px;
+  mask-image: radial-gradient(ellipse at top, black 25%, transparent 75%);
+}
+
+.glow {
+  background: radial-gradient(closest-side, var(--glow), transparent);
+}
+
+.text-gradient {
+  background: linear-gradient(90deg, var(--accent), var(--accent-2) 55%, var(--accent-3));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.btn-soft {
+  background: linear-gradient(135deg, var(--accent), var(--accent-2));
+  box-shadow: 0 10px 30px -10px var(--glow);
+}
+
+.shadow-soft {
+  box-shadow: 0 20px 50px -25px var(--glow);
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-8px); }
+}
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+::selection {
+  background: var(--accent);
+  color: white;
+}
