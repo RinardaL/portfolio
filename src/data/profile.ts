@@ -31,12 +31,12 @@ export const projects: Project[] = [
   {
     title: "Physio Center Management System",
     description:
-      "Full-stack web app for running a physiotherapy clinic: patients, therapists, appointments, treatment and exercise plans, clinical assessments, equipment and payments.",
+      "Full-stack web app for running a physiotherapy clinic. Therapists write a therapy plan for each patient; patients log in, see their exercises and tick them off as done while the therapist follows their progress.",
     highlights: [
-      "REST API with Express and 12 Sequelize models on MySQL",
-      "JWT access/refresh tokens, bcrypt, patient/therapist roles",
-      "Stripe Checkout with verified webhooks",
-      "Admin dashboard with Recharts statistics",
+      "Therapy plans: therapist writes tasks, patient marks them to-do / done, live progress",
+      "Appointment booking with opening hours, double-booking checks and confirm / cancel",
+      "REST API with Express and Sequelize on MySQL, JWT access/refresh tokens, role guards on every route",
+      "Stripe Checkout with verified webhooks, admin dashboard with real clinic stats",
     ],
     tech: ["React", "Node.js", "Express", "MySQL", "Sequelize", "JWT", "Stripe"],
     github: "https://github.com/RinardaL/physio-center",
