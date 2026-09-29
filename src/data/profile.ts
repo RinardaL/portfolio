@@ -108,7 +108,7 @@ export const projects: Project[] = [
     highlights: [
       "Spring Boot REST API with Spring Data JPA and MySQL, validated request DTOs",
       "Admin panel secured with Spring Security (HTTP Basic): products, categories, orders, dashboard stats",
-      "Storefront with search, category filters, cart, checkout and stock control",
+      "Storefront with offers and discounts, search, category filters, cart, checkout and stock control",
       "Order workflow NEW → PROCESSING → SHIPPED → DELIVERED, cancelling restores stock",
     ],
     tech: ["Java", "Spring Boot", "Spring Security", "MySQL", "React", "Vite"],
