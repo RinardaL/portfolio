@@ -10,7 +10,7 @@ export const profile = {
   cv: "/Rinarda_Lahu_CV.pdf",
   summary:
     "Computer Science student at UBT building full-stack apps with React, Node.js, Spring Boot and MySQL. Looking for my first internship or junior role where I can learn fast and ship real features.",
-  openTo: "Open to internships and junior roles — remote or in Pristina",
+  openTo: "Open to internships and junior roles — on-site, hybrid or remote",
 };
 
 export type Project = {
@@ -150,10 +150,10 @@ export type TimelineItem = { title: string; org: string; period: string; detail:
 
 export const timeline: TimelineItem[] = [
   {
-    title: "Computer Science and Programming",
+    title: "BSc Computer Science and Engineering",
     org: "UBT – University for Business and Technology",
     period: "2022 – Present",
-    detail: "Bachelor's studies, Pristina",
+    detail: "Bachelor of Science (180 ECTS), Pristina",
   },
   {
     title: "Java Fundamentals & Spring Boot",
@@ -173,17 +173,17 @@ export const timeline: TimelineItem[] = [
 
 export const about = {
   paragraphs: [
-    "I'm a Computer Science and Programming student at UBT in Pristina. I got into development because I like building things people actually use — a clinic system that replaces paperwork, a shop that handles real orders, a tool that answers a real question in one glance.",
+    "I'm a Computer Science and Engineering student at UBT in Pristina. I got into development because I like building things people actually use — a clinic system that replaces paperwork, a shop that handles real orders, a tool that answers a real question in one glance.",
     "Most of my work is full-stack JavaScript: React on the front end, Node.js and Express on the back end, and MySQL or MongoDB underneath. I've also built with Java and Spring Boot, and recently with Next.js and TypeScript.",
     "I work with Claude every day as part of how I build — to plan features, debug, review my code and learn new frameworks faster. I treat it like a senior teammate: it speeds me up, but I make sure I understand every line I ship.",
     "On team projects I'm comfortable with Git branches and merges and planning work on Trello. Right now I'm looking for an internship or junior role where I can learn from experienced engineers and grow with the team.",
   ],
   facts: [
     { label: "Based in", value: "Pristina, Kosovo" },
-    { label: "Studying", value: "Computer Science · UBT" },
+    { label: "Studying", value: "Computer Science & Engineering · UBT" },
     { label: "Focus", value: "Full-stack web apps" },
     { label: "AI workflow", value: "Claude & Claude Code" },
     { label: "Languages", value: "Albanian · English" },
-    { label: "Available for", value: "Internships · Junior roles · Remote" },
+    { label: "Available for", value: "Internships · Junior roles · Hybrid or remote" },
   ],
 };
