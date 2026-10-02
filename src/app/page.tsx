@@ -267,7 +267,7 @@ export default function Home() {
                 Let&apos;s build something <span className="italic">together</span>.
               </h2>
               <p className="relative mx-auto mt-5 max-w-lg text-[#6b5468] dark:text-white/80">
-                I&apos;m looking for an internship or junior developer role — on-site in Pristina, hybrid or remote. I reply to every message.
+                I&apos;m looking for an internship or junior developer role — on-site in Pristina or hybrid. I reply to every message.
               </p>
               <div className="relative mt-9 flex flex-wrap justify-center gap-3">
                 <a href={`mailto:${profile.email}`} className={btnPrimary}>

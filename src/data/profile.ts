@@ -10,7 +10,7 @@ export const profile = {
   cv: "/Rinarda_Lahu_CV.pdf",
   summary:
     "Computer Science student at UBT building full-stack apps with React, Node.js, Spring Boot and MySQL. Looking for my first internship or junior role where I can learn fast and ship real features.",
-  openTo: "Open to internships and junior roles — on-site, hybrid or remote",
+  openTo: "Open to internships and junior roles — on-site or hybrid in Pristina",
 };
 
 export type Project = {
@@ -184,6 +184,6 @@ export const about = {
     { label: "Focus", value: "Full-stack web apps" },
     { label: "AI workflow", value: "Claude & Claude Code" },
     { label: "Languages", value: "Albanian · English" },
-    { label: "Available for", value: "Internships · Junior roles · Hybrid or remote" },
+    { label: "Available for", value: "Internships · Junior roles · On-site or hybrid" },
   ],
 };
