@@ -169,6 +169,27 @@ export const timeline: TimelineItem[] = [
     detail: "Anthropic's introductory course on working effectively with Claude",
     link: "/certificates/claude-101-anthropic.pdf",
   },
+  {
+    title: "Claude Platform 101",
+    org: "Anthropic Education",
+    period: "Certificate",
+    detail: "Building with the Claude API: models, prompting, tool use and the developer platform",
+    link: "/certificates/claude-platform-101-anthropic.pdf",
+  },
+  {
+    title: "Claude Code 101",
+    org: "Anthropic Education",
+    period: "Certificate",
+    detail: "Agentic coding with Claude Code: planning, implementing, reviewing and shipping changes from the terminal",
+    link: "/certificates/claude-code-101-anthropic.pdf",
+  },
+  {
+    title: "Introduction to Claude Cowork",
+    org: "Anthropic Education",
+    period: "Certificate",
+    detail: "Using Claude as a collaborator on everyday work: documents, files, research and automation",
+    link: "/certificates/claude-cowork-intro-anthropic.pdf",
+  },
 ];
 
 export const about = {

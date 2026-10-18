@@ -240,7 +240,7 @@ export default function Home() {
             <ol className="grid gap-5 md:grid-cols-3">
               {timeline.map((t, i) => (
                 <li key={t.title} className="relative rounded-3xl border border-border bg-surface p-6 shadow-soft">
-                  <span className={`grid h-10 w-10 place-items-center rounded-full ${skillTints[i]}`}>
+                  <span className={`grid h-10 w-10 place-items-center rounded-full ${skillTints[i % skillTints.length]}`}>
                     <Sparkle className="h-4 w-4 text-accent" />
                   </span>
                   <p className="mt-4 text-xs uppercase tracking-widest text-muted">{t.period}</p>
