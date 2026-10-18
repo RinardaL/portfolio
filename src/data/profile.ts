@@ -102,23 +102,6 @@ export const projects: Project[] = [
     url: "flight-time-calculator-six.vercel.app",
   },
   {
-    title: "Skolar · School Supplies Shop",
-    description:
-      "A modern web shop for school supplies with a full product management panel: customers browse, search and order; the admin manages products, categories, stock and orders.",
-    highlights: [
-      "Spring Boot REST API with Spring Data JPA and MySQL, validated request DTOs",
-      "Admin panel secured with Spring Security (HTTP Basic): products, categories, orders, dashboard stats",
-      "Storefront with offers and discounts, search, category filters, cart, checkout and stock control",
-      "Order workflow NEW → PROCESSING → SHIPPED → DELIVERED, cancelling restores stock",
-    ],
-    tech: ["Java", "Spring Boot", "Spring Security", "MySQL", "React", "Vite"],
-    github: "https://github.com/RinardaL/school-supplies-shop",
-    image: "/projects/skolar.png",
-    icon: "🎒",
-    gradient: "from-indigo-100 via-violet-100 to-amber-100 dark:from-indigo-400/30 dark:via-violet-400/20 dark:to-amber-300/30",
-    url: "localhost:5173 / skolar",
-  },
-  {
     title: "TripToCost",
     description:
       "My own project idea that I have been building and refining for months: a travel-cost website with 100+ destination pages, saved trips and an itinerary planner, built from scratch with no frameworks.",
